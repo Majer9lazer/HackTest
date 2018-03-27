@@ -29,8 +29,6 @@ namespace HackingTests
             Application excelApp = new Application();
             Workbook wpWorkbook = excelApp.Workbooks._Open(@"C:\Users\user\Desktop\123.xlsx");
             Worksheet worksheet = wpWorkbook.Worksheets[1];
-
-            
             Console.ReadLine();
         }
     }
